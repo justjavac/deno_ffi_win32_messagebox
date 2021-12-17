@@ -8,7 +8,7 @@ clicked.
 Run:
 
 ```bash
-deno run --allow-read --allow-write --allow-net --allow-ffi --unstable https://cdn.jsdelivr.net/gh/justjavac/deno_ffi_win32_messagebox@main/mod.ts
+deno run --allow-read --allow-ffi --unstable https://cdn.jsdelivr.net/gh/justjavac/deno_ffi_win32_messagebox@main/mod.ts
 ```
 
 Or run local:
@@ -16,7 +16,7 @@ Or run local:
 ```bash
 git clone git@github.com:justjavac/deno_ffi_win32_messagebox.git
 cd deno_ffi_win32_messagebox
-deno run --allow-read --allow-write --allow-net --allow-ffi --unstable mod.ts
+deno run --allow-read --allow-ffi --unstable mod.ts
 ```
 
 ---
