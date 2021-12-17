@@ -32,7 +32,7 @@ const IDYES = 6;
 /** The **No** button was selected. */
 const IDNO = 7;
 
-const lib = Deno.dlopen("User32.dll", {
+const lib = Deno.dlopen("user32.dll", {
   MessageBoxW: {
     parameters: ["pointer", "pointer", "pointer", "u64"],
     result: "i32",
