@@ -8,7 +8,7 @@ clicked.
 Run:
 
 ```bash
-deno run --allow-read --allow-write --allow-net --allow-ffi --unstable https://cdn.jsdelivr.net/gh/deno_ffi_win32_messagebox@main/mod.ts
+deno run --allow-read --allow-write --allow-net --allow-ffi --unstable https://cdn.jsdelivr.net/gh/justjavac/deno_ffi_win32_messagebox@main/mod.ts
 ```
 
 ---
