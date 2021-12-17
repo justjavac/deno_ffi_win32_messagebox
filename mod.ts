@@ -11,13 +11,13 @@ const IDYES = 6;
 const IDNO = 7;
 
 const lib = Deno.dlopen("User32.dll", {
-  MessageBox: {
+  MessageBoxA: {
     parameters: ["pointer", "pointer", "pointer", "u64"],
     result: "i32",
   },
 });
 
-const msgboxID = lib.symbols.MessageBox(
+const msgboxID = lib.symbols.MessageBoxA(
   new Deno.UnsafePointer(0n),
   cstr2ptr("Hello World"),
   cstr2ptr("Deno FFI"),
